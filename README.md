@@ -33,6 +33,7 @@ The project comprises three main Python files:
 - `create.py`: Defines the database schema with tables for users, workouts, nutrition logs, and sleep logs.
 - `insert_data.py`: Populates the database with sample data using the Faker library.
 - `query.py`: Contains functions to query the database, providing insights into user data, workouts, nutrition, and sleep patterns.
+- 'test_app.py': Conducts unit tests for the code, all of which run. Tests functionalities like creating a user, logging a workout, adding nutrition log, sleep logs, and querying all users from the database. This is in addition to the assignment requirements. 
 
 ## Database Schema
 The database schema is defined in `create.py` and includes the following tables:
@@ -56,7 +57,7 @@ The database schema is defined in `create.py` and includes the following tables:
 
 ## Setup and Execution
 ### Prerequisites
-- Python 3.x
+- Python 3
 - Flask
 - Flask-SQLAlchemy
 - Faker
